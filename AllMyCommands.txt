@@ -1,0 +1,15 @@
+git init 
+git add .
+git rm --cached file2.txt -r
+git add file2.txt
+git commit -m"my first commit to add the all files "
+git add README.md
+git commit -m"this is the description of the repo "
+git branch ReadMe
+git checkout ReadMe
+git add README.md
+git commit -m "the first commit in the new branch ReadMe"
+git checkout master
+git merge ReadMe
+git push
+
